@@ -51,3 +51,43 @@ Know Your Fan é uma aplicação baseada em Jupyter Notebook que permite às org
 ```bash
 git clone https://github.com/seu-usuario/know-your-fan.git
 cd know-your-fan
+```
+
+2. Instale as dependências:
+
+```bash
+pip install ipywidgets opencv-python-headless pytesseract pandas numpy matplotlib seaborn
+```
+
+3. Instale o Tesseract OCR (necessário para processamento de documentos):
+
+```
+Faça o download do instalador em: https://github.com/UB-Mannheim/tesseract/wiki
+```
+
+ou
+```
+apt-get install -y tesseract-ocr
+apt-get install -y tesseract-ocr-por  # Para suporte ao português
+```
+
+4. Inicie o Jupyter Notebook e abra o arquivo do projeto:
+
+```
+know_your_fan.ipynb
+```
+
+## Uso
+
+Execute as células do notebook na ordem para:
+
+     Configurar o ambiente
+
+     Coletar informações do fã
+
+     Validar documentos
+
+     Analisar engajamento
+
+     Gerar recomendações personalizadas
+
